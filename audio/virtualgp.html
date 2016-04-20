@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Virtual Guitar Processor</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Personal website of Hari Mohanraj">
+    <link rel="canonical" href="http://harimohanraj89.github.io/audio/virtualgp.html">
+    <link href="/stylesheets/font-awesome/css/font-awesome.min.css" rel="stylesheet">        <!-- FONTAWESOME -->
+    <link href='http://fonts.googleapis.com/css?family=Mako|Oxygen:300' rel='stylesheet' type='text/css'>   <!-- GOOGLEFONTS -->
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+
+    <body>
+      <div id="page">
+        <h1 class="pagetitle"><a href="/">HM</a></h1>
+
+        <div class="topbarcontainer">
+  <a class="topbar" href="/audio"><div class="topbar boxsize">Audio</div></a>
+  <a class="topbar" href="/web"><div class="topbar boxsize">Web</div></a>
+  <a class="topbar" href="/game"><div class="topbar boxsize">Game</div></a>
+  <a class="topbar" href="/fun"><div class="topbar boxsize">Fun</div></a>
+  <a class="topbar" href="/music"><div class="topbar boxsize">Music</div></a>
+  <a class="topbar" href="/about_me"><div class="topbar boxsize">About</div></a>
+</div>
+
+
+        <div class="bodycontainer">
+
+<h2>Virtual Guitar Processor</h2>
+
+<p><a href="/images/virtualgp.png" target="_blank">
+  <img class="boxsize large" src="/images/virtualgp.png" />
+</a></p>
+
+<p>This virtual guitar processor was the product of the final project assignment in
+my Advanced Digital Signal Theory class. The class was dedicated to learning the
+implementation of common musical effects from scratch. hence, for the final
+project, I decided to consolidate all we had learned into a single PureData
+patch that would serve as a virtual guitar processor.</p>
+
+<p>The guitar processor implemented the following features.</p>
+
+<ul>
+  <li>Distortion: A choice of sinusoidal, polynomial, or diode-modeled distortions</li>
+  <li>Equalization: A 3-band parametric equalizer, with two shelf bands and a peak
+  band in the middle</li>
+  <li>Effects: A parametric effects rack, providing vibrato, flanger, chorus,
+  doubling (like a slap-back echo)</li>
+  <li>Delay: A parametric delay, with wet volume and feedback control</li>
+  <li>Reverb: A reverb engine using a feedback delay network, with wet volume and
+  reverb time control</li>
+</ul>
+
+<p>The header image on this page looks pretty, but the sad reality of PureData (vs
+MaxMSP, for example) is the absence of a presentation mode. Hence, the actual
+patch looked something like this.</p>
+
+<p><a href="/images/virtualgpdetailed.png" target="_blank">
+  <img class="boxsize large" src="/images/virtualgpdetailed.png" />
+</a></p>
+
+<p>However, I was able to produce some cool sounds with this patch (mainly using my
+bass guitar) and even used it for a live performance in a Distributed
+Performances class.</p>
+
+<p><a class="distinct" href="downloads/VirtualGP.zip">Download the patch</a></p>
+
+
+</div>
+
+
+        <div class="footercontainer">
+  <div class="footertextcontainer">
+    <a href="/contact">Get in touch</a> | &#169 2013, Hariharan Mohanraj | This website was made by me | Thanks for visiting
+  </div>
+</div>
+
+      </div>
+    </body>
+</html>

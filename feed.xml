@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hari Mohanraj</title>
+    <description>Personal website of Hari Mohanraj</description>
+    <link>http://harimohanraj89.github.io/</link>
+    <atom:link href="http://harimohanraj89.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 19 Apr 2016 22:27:07 -0400</pubDate>
+    <lastBuildDate>Tue, 19 Apr 2016 22:27:07 -0400</lastBuildDate>
+    <generator>Jekyll v2.5.2</generator>
+    
+      <item>
+        <title>Leveling Up Your Diablo 3 Monk</title>
+        <description>&lt;p&gt;&lt;a href=&quot;/images/thumbdiabloleveling.jpg&quot; target=&quot;_blank&quot;&gt;
+  &lt;img class=&quot;boxsize large&quot; src=&quot;/images/thumbdiabloleveling.jpg&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Photo credit: Unknown&lt;/p&gt;
+
+&lt;p&gt;I love playing Diablo 3. The idea of continuously being able to progress and
+better yourself appeals to me. However, some time ago I lost interest in the
+game. I had been stuck playing Torment 4 for months, and didn’t know what the
+next step to improving was. Legendary drop rates in my difficulty level were not
+good enough to acquire my next game-changing piece of gear. With no
+&lt;a href=&quot;http://us.battle.net/d3/en/item/boon-of-the-hoarder&quot; target=&quot;_blank&quot;&gt;Boon
+of the Hoarder&lt;/a&gt;, I had no gold to refine my gems. I could scrape through a
+Greater Rift 20 at best. I was stuck with one build, and I could feel my
+gameplay stagnating.&lt;/p&gt;
+
+&lt;p&gt;Recently, I revisited Diablo 3 and made a giant spurt of progress! One tiny
+breakthrough led to another, and now I’m about to finish a Greater Rift 50! I
+cruise through Torment X. I have three or four builds that I rotate between
+regularly. I have more money than I know what to do with.&lt;/p&gt;
+
+&lt;p&gt;Here are a few of the things that I followed in order to make my progress.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Create a Seasonal Hero&lt;/li&gt;
+  &lt;li&gt;Spend fast&lt;/li&gt;
+  &lt;li&gt;Survivability first&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;create-a-seasonal-hero&quot;&gt;Create a Seasonal Hero&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Rewards are a great start&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;spend-fast&quot;&gt;Spend fast&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Investments return exponential dividends&lt;/li&gt;
+  &lt;li&gt;Don’t hold on “until the time is right”. Use it fast, and you’ll get two more
+before you know it&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;survivability-first&quot;&gt;Survivability first&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Monks have ridiculous attack speed&lt;/li&gt;
+  &lt;li&gt;A couple of weapons with Life On Hit, plus some damage reduction, can make you
+invincible&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 05 Jan 1000 00:00:00 -0500</pubDate>
+        <link>http://harimohanraj89.github.io/game/diablo/leveling-up-your-diablo-3-monk.html</link>
+        <guid isPermaLink="true">http://harimohanraj89.github.io/game/diablo/leveling-up-your-diablo-3-monk.html</guid>
+        
+        
+        <category>game</category>
+        
+        <category>diablo</category>
+        
+      </item>
+    
+      <item>
+        <title>Immersive Sonification of Medical Imaging Data</title>
+        <description>&lt;p&gt;Sonification is the representation of any data or information through the sense
+of sound, as opposed to more conventional methods, such as plots, graphs, visual
+displays, etc. This particular project deals with the use of sound to represent
+medical imaging data, with a focus on supplementing existing diagnosis
+techniques for identifying Alzheimer’s disease.&lt;/p&gt;
+
+&lt;h4 id=&quot;the-data&quot;&gt;The Data&lt;/h4&gt;
+
+&lt;p&gt;Medical imaging data is stored in a standardized format called DICOM. The
+datasets that are handled in this project are three-dimensional scans of human
+brains that have been diagnosed with Alzheimer’s disease, with varying levels of
+progression. These datasets are converted into easily readable (by humans and
+computers) text files utilizing MATLAB’s inbuilt functions to read DICOM files.&lt;/p&gt;
+
+&lt;h4 id=&quot;the-sonification-tool&quot;&gt;The Sonification Tool&lt;/h4&gt;
+
+&lt;p&gt;The magic happens in the C++ tool that I developed named SoniScan++ (the MATLAB
+prototype was named SoniScan, and is shown below).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/sonificationmatlab.png&quot; target=&quot;_blank&quot;&gt;
+  &lt;img class=&quot;boxsize large&quot; src=&quot;/images/sonificationmatlab.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Here the user is presented with the option to “sonify” a dataset in a number of
+ways. Some of the sonification techniques are voxel(volumetric pixel)-to-note
+mappings. Here, each datapoint, or voxel, is assigned a note to play on a
+pre-determined scale, and the various properties of the voxel, namely its
+position and value, are mapped to different parameters of the note to be played,
+such as which instrument should play the note, or how long and loud the note
+should play. The result is musical piece of sorts.&lt;/p&gt;
+
+&lt;div class=&quot;videowrapper&quot;&gt;
+  &lt;iframe width=&quot;320&quot; height=&quot;240&quot; src=&quot;http://www.youtube.com/embed/SPxJu1Vqx0E?controls=0&amp;amp;showinfo=0&amp;amp;rel=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  &lt;p class=&quot;caption&quot;&gt;
+    A healthy brain, where pitch is mapped to the y-axis, and time to the x-axis.
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;videowrapper&quot;&gt;
+  &lt;iframe width=&quot;320&quot; height=&quot;240&quot; src=&quot;http://www.youtube.com/embed/aB-JXwb3Ido?controls=0&amp;amp;showinfo=0&amp;amp;rel=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  &lt;p class=&quot;caption&quot;&gt;
+    A brain with severe Alzheimer&#39;s, where pitch is mapped to the y-axis, and time to the x-axis.
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Another sonification technique involves dividing the brain into its lobes,
+computing the average intensity of each region, and mapping that intensity to
+the frequency of a simple tone corresponding to that region. The result is a
+textural drone. The results of this technique seem to be quite promising for the
+improvement of consistency in diagnosis of Alzheimer’s disease.&lt;/p&gt;
+
+&lt;div class=&quot;videowrapper&quot;&gt;
+  &lt;iframe class=&quot;boxsize&quot; width=&quot;320&quot; height=&quot;240&quot; src=&quot;http://www.youtube.com/embed/vUmi-EeX-EE?controls=0&amp;amp;showinfo=0&amp;amp;rel=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  &lt;p class=&quot;caption&quot;&gt;
+    A healthy brain, where pitch is mapped to the y-axis, and time to the x-axis.
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;videowrapper&quot;&gt;
+  &lt;iframe width=&quot;320&quot; height=&quot;240&quot; src=&quot;http://www.youtube.com/embed/9udVvM_2EY8?controls=0&amp;amp;showinfo=0&amp;amp;rel=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  &lt;p class=&quot;caption&quot;&gt;
+    A brain with severe Alzheimer&#39;s, where pitch is mapped to the y-axis, and time to the x-axis.
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This research is funded by the &lt;a href=&quot;http://ctsi.med.nyu.edu/&quot;&gt;Clinical and Translational Science Institute,
+NYU Langone Medical Center&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 04 Jan 1000 00:00:00 -0500</pubDate>
+        <link>http://harimohanraj89.github.io/audio/sonification.html</link>
+        <guid isPermaLink="true">http://harimohanraj89.github.io/audio/sonification.html</guid>
+        
+        
+        <category>audio</category>
+        
+      </item>
+    
+      <item>
+        <title>Two Dimensional Mixer</title>
+        <description>&lt;p&gt;&lt;a href=&quot;/images/thumbtwodmixer.png&quot; target=&quot;_blank&quot;&gt;
+  &lt;img class=&quot;boxsize large&quot; src=&quot;/images/thumbtwodmixer.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This two dimensional mixer was the product of the final project assignment in my
+Advanced Game Audio class. The class was dedicated to learning the sound design
+and implementation aspects of popular video game engines such as Unity3D and the
+UnrealEngine. This two-dimensional mixer is mockup of a possible sound design
+tool to blend various sound sources to form a convincing sound for a game object
+(for example, to model the sound of a crowd at a football game).&lt;/p&gt;
+
+&lt;p&gt;The blue XY-pad is the mixer, which is manipulated with the mouse. The user can
+choose between various panning methods, such as equal power or equal gain. There
+are individual channel controls (gain, solo, mute, play, pause) for each of the
+four audio sources. Another cool feature of this patch is that it has a
+framework to communicate via UDP, so in theory, it can be controlled remotely.&lt;/p&gt;
+
+&lt;p&gt;The header image on this page looks pretty, but the sad reality of PureData
+(vs MaxMSP, for example) is the absence of a presentation mode. Hence, the
+actual patch looked something like this.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/twodmixerdetailed.png&quot; target=&quot;_blank&quot;&gt;
+  &lt;img class=&quot;boxsize large&quot; src=&quot;/images/twodmixerdetailed.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The patch is available for download below, if you feel like taking this patch
+for a ride. The download also contains some sample audio to get up and running.
+Remember, all user controls are in red!&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;distinct&quot; href=&quot;downloads/TwoDMixer.zip&quot;&gt;Download the patch&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 03 Jan 1000 00:00:00 -0500</pubDate>
+        <link>http://harimohanraj89.github.io/audio/twodmixer.html</link>
+        <guid isPermaLink="true">http://harimohanraj89.github.io/audio/twodmixer.html</guid>
+        
+        
+        <category>audio</category>
+        
+      </item>
+    
+      <item>
+        <title>Studio Mercato</title>
+        <description>
+</description>
+        <pubDate>Fri, 03 Jan 1000 00:00:00 -0500</pubDate>
+        <link>http://harimohanraj89.github.io/game/studio-mercato.html</link>
+        <guid isPermaLink="true">http://harimohanraj89.github.io/game/studio-mercato.html</guid>
+        
+        
+        <category>game</category>
+        
+      </item>
+    
+      <item>
+        <title>Bass Covers</title>
+        <description>
+</description>
+        <pubDate>Fri, 03 Jan 1000 00:00:00 -0500</pubDate>
+        <link>http://harimohanraj89.github.io/music/bass-covers.html</link>
+        <guid isPermaLink="true">http://harimohanraj89.github.io/music/bass-covers.html</guid>
+        
+        
+        <category>music</category>
+        
+      </item>
+    
+      <item>
+        <title>Virtual Guitar Processor</title>
+        <description>&lt;p&gt;&lt;a href=&quot;/images/virtualgp.png&quot; target=&quot;_blank&quot;&gt;
+  &lt;img class=&quot;boxsize large&quot; src=&quot;/images/virtualgp.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This virtual guitar processor was the product of the final project assignment in
+my Advanced Digital Signal Theory class. The class was dedicated to learning the
+implementation of common musical effects from scratch. hence, for the final
+project, I decided to consolidate all we had learned into a single PureData
+patch that would serve as a virtual guitar processor.&lt;/p&gt;
+
+&lt;p&gt;The guitar processor implemented the following features.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Distortion: A choice of sinusoidal, polynomial, or diode-modeled distortions&lt;/li&gt;
+  &lt;li&gt;Equalization: A 3-band parametric equalizer, with two shelf bands and a peak
+  band in the middle&lt;/li&gt;
+  &lt;li&gt;Effects: A parametric effects rack, providing vibrato, flanger, chorus,
+  doubling (like a slap-back echo)&lt;/li&gt;
+  &lt;li&gt;Delay: A parametric delay, with wet volume and feedback control&lt;/li&gt;
+  &lt;li&gt;Reverb: A reverb engine using a feedback delay network, with wet volume and
+  reverb time control&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The header image on this page looks pretty, but the sad reality of PureData (vs
+MaxMSP, for example) is the absence of a presentation mode. Hence, the actual
+patch looked something like this.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/virtualgpdetailed.png&quot; target=&quot;_blank&quot;&gt;
+  &lt;img class=&quot;boxsize large&quot; src=&quot;/images/virtualgpdetailed.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;However, I was able to produce some cool sounds with this patch (mainly using my
+bass guitar) and even used it for a live performance in a Distributed
+Performances class.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;distinct&quot; href=&quot;downloads/VirtualGP.zip&quot;&gt;Download the patch&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 02 Jan 1000 00:00:00 -0500</pubDate>
+        <link>http://harimohanraj89.github.io/audio/virtualgp.html</link>
+        <guid isPermaLink="true">http://harimohanraj89.github.io/audio/virtualgp.html</guid>
+        
+        
+        <category>audio</category>
+        
+      </item>
+    
+      <item>
+        <title>Performance</title>
+        <description>
+</description>
+        <pubDate>Thu, 02 Jan 1000 00:00:00 -0500</pubDate>
+        <link>http://harimohanraj89.github.io/music/performance.html</link>
+        <guid isPermaLink="true">http://harimohanraj89.github.io/music/performance.html</guid>
+        
+        
+        <category>music</category>
+        
+      </item>
+    
+      <item>
+        <title>Doge-allax</title>
+        <description>
+</description>
+        <pubDate>Thu, 02 Jan 1000 00:00:00 -0500</pubDate>
+        <link>http://harimohanraj89.github.io/fun/doge-allax.html</link>
+        <guid isPermaLink="true">http://harimohanraj89.github.io/fun/doge-allax.html</guid>
+        
+        
+        <category>fun</category>
+        
+      </item>
+    
+      <item>
+        <title>Asteroid</title>
+        <description>
+</description>
+        <pubDate>Thu, 02 Jan 1000 00:00:00 -0500</pubDate>
+        <link>http://harimohanraj89.github.io/game/asteroid.html</link>
+        <guid isPermaLink="true">http://harimohanraj89.github.io/game/asteroid.html</guid>
+        
+        
+        <category>game</category>
+        
+      </item>
+    
+      <item>
+        <title>Physical Space</title>
+        <description>
+</description>
+        <pubDate>Wed, 01 Jan 1000 00:00:00 -0500</pubDate>
+        <link>http://harimohanraj89.github.io/fun/physical-space.html</link>
+        <guid isPermaLink="true">http://harimohanraj89.github.io/fun/physical-space.html</guid>
+        
+        
+        <category>fun</category>
+        
+      </item>
+    
+  </channel>
+</rss>
