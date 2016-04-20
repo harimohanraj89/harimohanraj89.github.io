@@ -7,9 +7,10 @@
     <title>Two Dimensional Mixer</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Personal website of Hari Mohanraj">
-    <link rel="canonical" href="http://harimohanraj89.github.io/audio/twodmixer.html">
-    <link href="/stylesheets/font-awesome/css/font-awesome.min.css" rel="stylesheet">        <!-- FONTAWESOME -->
-    <link href='http://fonts.googleapis.com/css?family=Mako|Oxygen:300' rel='stylesheet' type='text/css'>   <!-- GOOGLEFONTS -->
+    <link rel="canonical" href="http://harimohanraj89.github.io/music/audio/twodmixer.html">
+    <link href="/stylesheets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Mako|Oxygen:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/style.css">
 </head>
@@ -17,25 +18,22 @@
 
     <body>
       <div id="page">
-        <h1 class="pagetitle"><a href="/">HM</a></h1>
-
-        <div class="topbarcontainer">
-  <a class="topbar" href="/audio"><div class="topbar boxsize">Audio</div></a>
-  <a class="topbar" href="/web"><div class="topbar boxsize">Web</div></a>
-  <a class="topbar" href="/game"><div class="topbar boxsize">Game</div></a>
-  <a class="topbar" href="/fun"><div class="topbar boxsize">Fun</div></a>
-  <a class="topbar" href="/music"><div class="topbar boxsize">Music</div></a>
-  <a class="topbar" href="/about_me"><div class="topbar boxsize">About</div></a>
-</div>
+        <nav class="main-nav">
+  <a href="/"><h1 class="main-nav__title">Hari Mohanraj</h1></a>
+  <ul class="main-nav__items">
+    <a href="/"><li class="main-nav__item">Work</li></a>
+    <a href="/about_me"><li class="main-nav__item">About</li></a>
+  </ul>
+</nav>
 
 
-        <div class="bodycontainer">
+        <div class="post-page">
+  <div class="post">
+    <h2>Two Dimensional Mixer</h2>
 
-<h2>Two Dimensional Mixer</h2>
-
-<p><a href="/images/thumbtwodmixer.png" target="_blank">
+    <div class="image-wrapper">
   <img class="boxsize large" src="/images/thumbtwodmixer.png" />
-</a></p>
+</div>
 
 <p>This two dimensional mixer was the product of the final project assignment in my
 Advanced Game Audio class. The class was dedicated to learning the sound design
@@ -54,9 +52,9 @@ framework to communicate via UDP, so in theory, it can be controlled remotely.</
 (vs MaxMSP, for example) is the absence of a presentation mode. Hence, the
 actual patch looked something like this.</p>
 
-<p><a href="/images/twodmixerdetailed.png" target="_blank">
+<div class="image-wrapper">
   <img class="boxsize large" src="/images/twodmixerdetailed.png" />
-</a></p>
+</div>
 
 <p>The patch is available for download below, if you feel like taking this patch
 for a ride. The download also contains some sample audio to get up and running.
@@ -64,7 +62,10 @@ Remember, all user controls are in red!</p>
 
 <p><a class="distinct" href="downloads/TwoDMixer.zip">Download the patch</a></p>
 
+  </div>
+  <div class="sidebar">
 
+  </div>
 </div>
 
 

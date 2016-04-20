@@ -5,17 +5,19 @@
     <description>Personal website of Hari Mohanraj</description>
     <link>http://harimohanraj89.github.io/</link>
     <atom:link href="http://harimohanraj89.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 19 Apr 2016 22:27:07 -0400</pubDate>
-    <lastBuildDate>Tue, 19 Apr 2016 22:27:07 -0400</lastBuildDate>
+    <pubDate>Tue, 19 Apr 2016 23:48:20 -0400</pubDate>
+    <lastBuildDate>Tue, 19 Apr 2016 23:48:20 -0400</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
     
       <item>
         <title>Leveling Up Your Diablo 3 Monk</title>
-        <description>&lt;p&gt;&lt;a href=&quot;/images/thumbdiabloleveling.jpg&quot; target=&quot;_blank&quot;&gt;
+        <description>&lt;div class=&quot;image-wrapper&quot;&gt;
   &lt;img class=&quot;boxsize large&quot; src=&quot;/images/thumbdiabloleveling.jpg&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
 
-&lt;p&gt;Photo credit: Unknown&lt;/p&gt;
+&lt;p class=&quot;post__image-caption&quot;&gt;Photo credit: Unknown&lt;/p&gt;
+
+&lt;h3 id=&quot;my-diablo-midlife-crisis&quot;&gt;My Diablo Midlife Crisis&lt;/h3&gt;
 
 &lt;p&gt;I love playing Diablo 3. The idea of continuously being able to progress and
 better yourself appeals to me. However, some time ago I lost interest in the
@@ -42,25 +44,79 @@ regularly. I have more money than I know what to do with.&lt;/p&gt;
 
 &lt;h3 id=&quot;create-a-seasonal-hero&quot;&gt;Create a Seasonal Hero&lt;/h3&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Rewards are a great start&lt;/li&gt;
-&lt;/ul&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Seasons are a great way to get a head-start on some awesome gear.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In exchange
+for completing some special objectives through the campaign, you are awarded up
+to 6 pieces of a class  set. For example, I completed Season 5’s objectives to
+receive the 6-piece
+&lt;a href=&quot;http://www.diablowiki.net/Monkey_King%E2%80%99s_Garb&quot; target=&quot;_blank&quot;&gt;
+Monkey King’s Garb&lt;/a&gt; set. What’s more, you receive this gear two pieces at a
+time, and can immediately start using the first two pieces you receive to make
+it easier to obtain the rest.&lt;/p&gt;
 
 &lt;h3 id=&quot;spend-fast&quot;&gt;Spend fast&lt;/h3&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Investments return exponential dividends&lt;/li&gt;
-  &lt;li&gt;Don’t hold on “until the time is right”. Use it fast, and you’ll get two more
-before you know it&lt;/li&gt;
-&lt;/ul&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;The better gear you have, the higher difficulty you can play at. The higher the
+difficulty that you’re playing at, the more likely you are to get better gear.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This means that investments to improve the quality of your gear pay exponential
+dividends. Are you saving up a bunch of Imperial Emeralds until you have enough
+(and enough money) to combine them into a Flawless Royal Emerald? Don’t! Socket
+them in your gear right away! The improvement to your stats will allow you to
+immediately reap dividends from the gems that you have collected, enabling you
+to play at a higher difficulty. Chances are, you’ll earn back the used gems
+very soon. To sum up,&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Don’t hold on to things “until the time is right”. The right time is right
+away.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;h3 id=&quot;survivability-first&quot;&gt;Survivability first&lt;/h3&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Monks have ridiculous attack speed&lt;/li&gt;
-  &lt;li&gt;A couple of weapons with Life On Hit, plus some damage reduction, can make you
-invincible&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;The biggest challenge for me when attempting to play at the higher Torment
+levels was staying alive, or maximizing the amount of damage that you can take.&lt;/p&gt;
+
+&lt;p&gt;The amount of damage you can take depends on your Toughness (roughly speaking,
+how much health do you have) and your Recovery (how fast do you regain health).
+Having loads of Toughness and no Recovery is quite useless. You will steadily
+lose health at the hands of every mob that attacks you, until you eventually die.
+On the other hand, if you prioritize Recovery over Toughness, you will be able
+to “live forever”. You will be able to recover your health faster than mobs can
+deal damage to you, rendering you invincible. The one caveat here is that you
+must possess enough Toughness to avoid being one-shot by scarier monsters.&lt;/p&gt;
+
+&lt;p&gt;How did I implement this strategy? Life On Hit is a statistic that grants you a
+certain amount of health every time you hit a mob. It scales with attack speed.
+Well, monks happen to have some of the fastest attack speeds out there. Hence,
+I decided to tune my gear towards maximizing my Attack Speed and my Life On Hit.
+After socketing every diamond I owned in my gear to increase my resistances, I
+became the Diablo equivalent of Wolverine. I could stand in one spot and
+relentlessly beat on mobs, while my super-healing powers kept me alive forever.
+This allowed me to play at higher difficulty levels.&lt;/p&gt;
+
+&lt;p&gt;I could now play at higher difficulties. My damage output was terrible, but it
+didn’t matter. I didn’t mind taking a while to kill things, because the greater
+rewards for clearing a Nephalem Rift in a higher Torment level justified the
+extra time it took to do so.&lt;/p&gt;
+
+&lt;p&gt;A month or two after following this approach, I now have my very own Inna’s set,
+Uliana’s set, and a bunch of splendid legendaries. I can mix and match to try
+out new interesting builds. I can turn myself into a glass cannon to “farm”, or
+I can put on my best suit to clear a Greater Rift 50. All in all, Diablo is fun
+again.&lt;/p&gt;
+
+&lt;p&gt;If you relate to this Diablo “mid-life crisis” that I went through, I hope this
+approach will help you get over the hump.&lt;/p&gt;
+
+&lt;p&gt;You can view example build that I used to get from Torment IV to Torment VII
+&lt;a href=&quot;http://www.diablofans.com/builds/78647-life-on-hit-monk&quot; target=&quot;_blank&quot;&gt;
+here&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Sun, 05 Jan 1000 00:00:00 -0500</pubDate>
         <link>http://harimohanraj89.github.io/game/diablo/leveling-up-your-diablo-3-monk.html</link>
@@ -74,7 +130,7 @@ invincible&lt;/li&gt;
       </item>
     
       <item>
-        <title>Immersive Sonification of Medical Imaging Data</title>
+        <title>Medical Sonification</title>
         <description>&lt;p&gt;Sonification is the representation of any data or information through the sense
 of sound, as opposed to more conventional methods, such as plots, graphs, visual
 displays, etc. This particular project deals with the use of sound to represent
@@ -94,9 +150,9 @@ computers) text files utilizing MATLAB’s inbuilt functions to read DICOM files
 &lt;p&gt;The magic happens in the C++ tool that I developed named SoniScan++ (the MATLAB
 prototype was named SoniScan, and is shown below).&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/images/sonificationmatlab.png&quot; target=&quot;_blank&quot;&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
   &lt;img class=&quot;boxsize large&quot; src=&quot;/images/sonificationmatlab.png&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Here the user is presented with the option to “sonify” a dataset in a number of
 ways. Some of the sonification techniques are voxel(volumetric pixel)-to-note
@@ -154,9 +210,9 @@ NYU Langone Medical Center&lt;/a&gt;.&lt;/p&gt;
     
       <item>
         <title>Two Dimensional Mixer</title>
-        <description>&lt;p&gt;&lt;a href=&quot;/images/thumbtwodmixer.png&quot; target=&quot;_blank&quot;&gt;
+        <description>&lt;div class=&quot;image-wrapper&quot;&gt;
   &lt;img class=&quot;boxsize large&quot; src=&quot;/images/thumbtwodmixer.png&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
 
 &lt;p&gt;This two dimensional mixer was the product of the final project assignment in my
 Advanced Game Audio class. The class was dedicated to learning the sound design
@@ -175,9 +231,9 @@ framework to communicate via UDP, so in theory, it can be controlled remotely.&l
 (vs MaxMSP, for example) is the absence of a presentation mode. Hence, the
 actual patch looked something like this.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/images/twodmixerdetailed.png&quot; target=&quot;_blank&quot;&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
   &lt;img class=&quot;boxsize large&quot; src=&quot;/images/twodmixerdetailed.png&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
 
 &lt;p&gt;The patch is available for download below, if you feel like taking this patch
 for a ride. The download also contains some sample audio to get up and running.
@@ -186,9 +242,11 @@ Remember, all user controls are in red!&lt;/p&gt;
 &lt;p&gt;&lt;a class=&quot;distinct&quot; href=&quot;downloads/TwoDMixer.zip&quot;&gt;Download the patch&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 03 Jan 1000 00:00:00 -0500</pubDate>
-        <link>http://harimohanraj89.github.io/audio/twodmixer.html</link>
-        <guid isPermaLink="true">http://harimohanraj89.github.io/audio/twodmixer.html</guid>
+        <link>http://harimohanraj89.github.io/music/audio/twodmixer.html</link>
+        <guid isPermaLink="true">http://harimohanraj89.github.io/music/audio/twodmixer.html</guid>
         
+        
+        <category>music</category>
         
         <category>audio</category>
         
@@ -208,6 +266,21 @@ Remember, all user controls are in red!&lt;/p&gt;
       </item>
     
       <item>
+        <title>Fifty Shades of Gray</title>
+        <description>
+</description>
+        <pubDate>Fri, 03 Jan 1000 00:00:00 -0500</pubDate>
+        <link>http://harimohanraj89.github.io/web/fun/fifty-shades-of-gray.html</link>
+        <guid isPermaLink="true">http://harimohanraj89.github.io/web/fun/fifty-shades-of-gray.html</guid>
+        
+        
+        <category>web</category>
+        
+        <category>fun</category>
+        
+      </item>
+    
+      <item>
         <title>Bass Covers</title>
         <description>
 </description>
@@ -222,9 +295,9 @@ Remember, all user controls are in red!&lt;/p&gt;
     
       <item>
         <title>Virtual Guitar Processor</title>
-        <description>&lt;p&gt;&lt;a href=&quot;/images/virtualgp.png&quot; target=&quot;_blank&quot;&gt;
+        <description>&lt;div class=&quot;image-wrapper&quot;&gt;
   &lt;img class=&quot;boxsize large&quot; src=&quot;/images/virtualgp.png&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
 
 &lt;p&gt;This virtual guitar processor was the product of the final project assignment in
 my Advanced Digital Signal Theory class. The class was dedicated to learning the
@@ -249,20 +322,22 @@ patch that would serve as a virtual guitar processor.&lt;/p&gt;
 MaxMSP, for example) is the absence of a presentation mode. Hence, the actual
 patch looked something like this.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/images/virtualgpdetailed.png&quot; target=&quot;_blank&quot;&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
   &lt;img class=&quot;boxsize large&quot; src=&quot;/images/virtualgpdetailed.png&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
 
 &lt;p&gt;However, I was able to produce some cool sounds with this patch (mainly using my
 bass guitar) and even used it for a live performance in a Distributed
 Performances class.&lt;/p&gt;
 
-&lt;p&gt;&lt;a class=&quot;distinct&quot; href=&quot;downloads/VirtualGP.zip&quot;&gt;Download the patch&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;distinct&quot; href=&quot;/downloads/VirtualGP.zip&quot;&gt;Download the patch&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 02 Jan 1000 00:00:00 -0500</pubDate>
-        <link>http://harimohanraj89.github.io/audio/virtualgp.html</link>
-        <guid isPermaLink="true">http://harimohanraj89.github.io/audio/virtualgp.html</guid>
+        <link>http://harimohanraj89.github.io/music/audio/virtualgp.html</link>
+        <guid isPermaLink="true">http://harimohanraj89.github.io/music/audio/virtualgp.html</guid>
         
+        
+        <category>music</category>
         
         <category>audio</category>
         
@@ -286,9 +361,11 @@ Performances class.&lt;/p&gt;
         <description>
 </description>
         <pubDate>Thu, 02 Jan 1000 00:00:00 -0500</pubDate>
-        <link>http://harimohanraj89.github.io/fun/doge-allax.html</link>
-        <guid isPermaLink="true">http://harimohanraj89.github.io/fun/doge-allax.html</guid>
+        <link>http://harimohanraj89.github.io/web/fun/doge-allax.html</link>
+        <guid isPermaLink="true">http://harimohanraj89.github.io/web/fun/doge-allax.html</guid>
         
+        
+        <category>web</category>
         
         <category>fun</category>
         
@@ -299,22 +376,11 @@ Performances class.&lt;/p&gt;
         <description>
 </description>
         <pubDate>Thu, 02 Jan 1000 00:00:00 -0500</pubDate>
-        <link>http://harimohanraj89.github.io/game/asteroid.html</link>
-        <guid isPermaLink="true">http://harimohanraj89.github.io/game/asteroid.html</guid>
+        <link>http://harimohanraj89.github.io/game/fun/asteroid.html</link>
+        <guid isPermaLink="true">http://harimohanraj89.github.io/game/fun/asteroid.html</guid>
         
         
         <category>game</category>
-        
-      </item>
-    
-      <item>
-        <title>Physical Space</title>
-        <description>
-</description>
-        <pubDate>Wed, 01 Jan 1000 00:00:00 -0500</pubDate>
-        <link>http://harimohanraj89.github.io/fun/physical-space.html</link>
-        <guid isPermaLink="true">http://harimohanraj89.github.io/fun/physical-space.html</guid>
-        
         
         <category>fun</category>
         

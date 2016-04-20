@@ -4,12 +4,13 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Immersive Sonification of Medical Imaging Data</title>
+    <title>Medical Sonification</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Personal website of Hari Mohanraj">
     <link rel="canonical" href="http://harimohanraj89.github.io/audio/sonification.html">
-    <link href="/stylesheets/font-awesome/css/font-awesome.min.css" rel="stylesheet">        <!-- FONTAWESOME -->
-    <link href='http://fonts.googleapis.com/css?family=Mako|Oxygen:300' rel='stylesheet' type='text/css'>   <!-- GOOGLEFONTS -->
+    <link href="/stylesheets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Mako|Oxygen:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/style.css">
 </head>
@@ -17,23 +18,20 @@
 
     <body>
       <div id="page">
-        <h1 class="pagetitle"><a href="/">HM</a></h1>
-
-        <div class="topbarcontainer">
-  <a class="topbar" href="/audio"><div class="topbar boxsize">Audio</div></a>
-  <a class="topbar" href="/web"><div class="topbar boxsize">Web</div></a>
-  <a class="topbar" href="/game"><div class="topbar boxsize">Game</div></a>
-  <a class="topbar" href="/fun"><div class="topbar boxsize">Fun</div></a>
-  <a class="topbar" href="/music"><div class="topbar boxsize">Music</div></a>
-  <a class="topbar" href="/about_me"><div class="topbar boxsize">About</div></a>
-</div>
+        <nav class="main-nav">
+  <a href="/"><h1 class="main-nav__title">Hari Mohanraj</h1></a>
+  <ul class="main-nav__items">
+    <a href="/"><li class="main-nav__item">Work</li></a>
+    <a href="/about_me"><li class="main-nav__item">About</li></a>
+  </ul>
+</nav>
 
 
-        <div class="bodycontainer">
+        <div class="post-page">
+  <div class="post">
+    <h2>Medical Sonification</h2>
 
-<h2>Immersive Sonification of Medical Imaging Data</h2>
-
-<p>Sonification is the representation of any data or information through the sense
+    <p>Sonification is the representation of any data or information through the sense
 of sound, as opposed to more conventional methods, such as plots, graphs, visual
 displays, etc. This particular project deals with the use of sound to represent
 medical imaging data, with a focus on supplementing existing diagnosis
@@ -52,9 +50,9 @@ computers) text files utilizing MATLAB’s inbuilt functions to read DICOM files
 <p>The magic happens in the C++ tool that I developed named SoniScan++ (the MATLAB
 prototype was named SoniScan, and is shown below).</p>
 
-<p><a href="/images/sonificationmatlab.png" target="_blank">
+<div class="image-wrapper">
   <img class="boxsize large" src="/images/sonificationmatlab.png" />
-</a></p>
+</div>
 
 <p>Here the user is presented with the option to “sonify” a dataset in a number of
 ways. Some of the sonification techniques are voxel(volumetric pixel)-to-note
@@ -101,7 +99,10 @@ improvement of consistency in diagnosis of Alzheimer’s disease.</p>
 <p>This research is funded by the <a href="http://ctsi.med.nyu.edu/">Clinical and Translational Science Institute,
 NYU Langone Medical Center</a>.</p>
 
+  </div>
+  <div class="sidebar">
 
+  </div>
 </div>
 
 
