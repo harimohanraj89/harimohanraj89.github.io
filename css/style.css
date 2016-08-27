@@ -46,7 +46,7 @@ html {
   .project-thumbs::after {
     clear: both;
     content: "";
-    display: table; }
+    display: block; }
 
 @media screen and (max-width: 600px) {
   .project-thumb-grid {
@@ -142,7 +142,7 @@ html {
   .post-page::after {
     clear: both;
     content: "";
-    display: table; }
+    display: block; }
   @media screen and (min-width: 800px) {
     .post-page {
       max-width: 800px; } }
