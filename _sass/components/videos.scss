@@ -1,0 +1,32 @@
+div.videowrapper {
+  display: inline;
+  float: left;
+  width: 97.91666666666666%;
+  margin: 0 1.0416666666666665%;
+}
+div.videowrapper iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #c0c0c0;
+  padding: 6px;
+}
+div.videowrapper iframe:hover {
+  border: 1px solid #333;
+}
+div.videowrapper p.caption {
+  margin-left: 15%;
+  margin-right: 15%;
+  color: #777777;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+}
+@media screen and (min-width: 800px) {
+  div.videowrapper {
+    display: inline;
+    float: left;
+    width: 47.91666666666667%;
+    margin: 0 1.0416666666666665%;
+  }
+}

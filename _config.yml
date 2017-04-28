@@ -9,5 +9,11 @@ github_username:  harimohanraj89
 youtube_username: skfreak914
 soundcloud_username: harimohanraj89
 # Build settings
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore
+  - CNAME
 markdown: kramdown
 permalink: none
