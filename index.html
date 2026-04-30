@@ -1,23 +1,25 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Hari Mohanraj</title>
-  <meta name="description" content="Hari Mohanraj — engineering leader, product builder, and team multiplier." />
-  <style>
-    :root {
-      --bg: #f7f3ec;
-      --ink: #1f2421;
-      --muted: #64625d;
-      --card: #fffaf2;
-      --line: #ded4c4;
-      --accent: #b64b33;
-      --accent-dark: #7f2f22;
-      --soft: #eadfce;
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hari Mohanraj</title>
+    <meta
+      name="description"
+      content="Hari Mohanraj — engineering leader, product builder, and team multiplier."
+    />
+    <style>
+      :root {
+        --bg: #f7f3ec;
+        --ink: #1f2421;
+        --muted: #64625d;
+        --card: #fffaf2;
+        --line: #ded4c4;
+        --accent: #b64b33;
+        --accent-dark: #7f2f22;
+        --soft: #eadfce;
 
-      
-      /* --bg: #ffffff;
+        /* --bg: #ffffff;
       --ink: #111111;
       --muted: #6b6b6b;
       --card: #f7f7f7;
@@ -25,10 +27,8 @@
       --accent: #2f6fed;
       --accent-dark: #1e4fc4;
       --soft: #f0f4ff; */
-     
 
-      
-      /* --bg: #1a1816;
+        /* --bg: #1a1816;
       --ink: #f5f1ea;
       --muted: #b7b0a4;
       --card: #24211d;
@@ -36,10 +36,8 @@
       --accent: #e07a5f;
       --accent-dark: #c45d42;
       --soft: #2c2722; */
-     
 
-      
-      /* --bg: #f3f7f4;
+        /* --bg: #f3f7f4;
       --ink: #1e2a24;
       --muted: #5f6f66;
       --card: #ffffff;
@@ -47,9 +45,8 @@
       --accent: #4c8f70;
       --accent-dark: #2f6a50;
       --soft: #e6f0ea; */
-     
 
-      /* --bg: #f6f7fb;
+        /* --bg: #f6f7fb;
       --ink: #0f172a;
       --muted: #64748b;
       --card: #ffffff;
@@ -58,366 +55,448 @@
       --accent-dark: #5b21b6;
       --soft: #ede9fe; */
 
-      /* Derived theme tokens. These keep the rest of the CSS palette-aware. */
-      --bg-glow-primary: color-mix(in srgb, var(--accent) 14%, transparent);
-      --bg-glow-secondary: color-mix(in srgb, var(--ink) 8%, transparent);
-      --surface-strong: color-mix(in srgb, var(--card) 88%, transparent);
-      --surface-medium: color-mix(in srgb, var(--card) 78%, transparent);
-      --surface-soft: color-mix(in srgb, var(--card) 68%, transparent);
-      --shadow-soft: color-mix(in srgb, var(--ink) 8%, transparent);
-      --shadow-button: color-mix(in srgb, var(--ink) 14%, transparent);
-      --button-primary-bg: var(--ink);
-      --button-primary-text: var(--bg);
-      --button-secondary-bg: color-mix(in srgb, var(--card) 42%, transparent);
-      --selection-bg: color-mix(in srgb, var(--accent) 22%, transparent);
-    }
-
-    * { box-sizing: border-box; }
-
-    ::selection {
-      background: var(--selection-bg);
-      color: var(--ink);
-    }
-
-    html { scroll-behavior: smooth; }
-
-    body {
-      margin: 0;
-      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      color: var(--ink);
-      background:
-        radial-gradient(circle at top left, var(--bg-glow-primary), transparent 34rem),
-        radial-gradient(circle at bottom right, var(--bg-glow-secondary), transparent 28rem),
-        var(--bg);
-      line-height: 1.6;
-    }
-
-    a { color: inherit; text-decoration: none; }
-
-    .page {
-      max-width: 1120px;
-      margin: 0 auto;
-      padding: 32px 24px 56px;
-    }
-
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 24px;
-      margin-bottom: 72px;
-    }
-
-    .brand {
-      font-weight: 760;
-      letter-spacing: -0.04em;
-      font-size: 1.1rem;
-    }
-
-    nav {
-      display: flex;
-      gap: 22px;
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
-
-    nav a:hover { color: var(--ink); }
-
-    .hero {
-      display: grid;
-      grid-template-columns: 1.3fr 0.7fr;
-      gap: 48px;
-      align-items: end;
-      padding-bottom: 64px;
-      border-bottom: 1px solid var(--line);
-    }
-
-    .eyebrow {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      color: var(--accent-dark);
-      font-weight: 700;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      font-size: 0.78rem;
-      margin-bottom: 18px;
-    }
-
-    .dot {
-      width: 8px;
-      height: 8px;
-      border-radius: 999px;
-      background: var(--accent);
-    }
-
-    h1 {
-      font-size: clamp(3.2rem, 9vw, 7.8rem);
-      line-height: 0.92;
-      letter-spacing: -0.08em;
-      margin: 0 0 26px;
-      max-width: 880px;
-    }
-
-    .lede {
-      font-size: clamp(1.15rem, 2vw, 1.55rem);
-      color: var(--muted);
-      max-width: 760px;
-      margin: 0;
-    }
-
-    .hero-card {
-      background: var(--surface-medium);
-      border: 1px solid var(--line);
-      border-radius: 28px;
-      padding: 28px;
-      box-shadow: 0 24px 80px var(--shadow-soft);
-      backdrop-filter: blur(10px);
-    }
-
-    .hero-card p {
-      margin: 0 0 20px;
-      color: var(--muted);
-    }
-
-    .hero-card p:last-child { margin-bottom: 0; }
-
-    .button-row {
-      display: flex;
-      gap: 12px;
-      flex-wrap: wrap;
-      margin-top: 28px;
-    }
-
-    .button {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      padding: 11px 16px;
-      border-radius: 999px;
-      border: 1px solid var(--ink);
-      background: var(--button-secondary-bg);
-      font-weight: 700;
-      font-size: 0.92rem;
-      transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease;
-    }
-
-    .button.primary {
-      background: var(--button-primary-bg);
-      color: var(--button-primary-text);
-    }
-
-    .button:hover {
-      transform: translateY(-1px);
-      box-shadow: 0 10px 28px var(--shadow-button);
-    }
-
-    section {
-      padding: 64px 0;
-      border-bottom: 1px solid var(--line);
-    }
-
-    .section-heading {
-      display: grid;
-      grid-template-columns: 220px 1fr;
-      gap: 32px;
-      align-items: start;
-      margin-bottom: 34px;
-    }
-
-    h2 {
-      margin: 0;
-      font-size: 0.9rem;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: var(--accent-dark);
-    }
-
-    .section-heading p {
-      margin: 0;
-      font-size: clamp(1.2rem, 2.2vw, 1.85rem);
-      line-height: 1.25;
-      letter-spacing: -0.04em;
-      max-width: 820px;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 18px;
-    }
-
-    .card {
-      background: var(--surface-medium);
-      border: 1px solid var(--line);
-      border-radius: 24px;
-      padding: 24px;
-      min-height: 210px;
-      box-shadow: 0 16px 48px var(--shadow-soft);
-    }
-
-    .card h3 {
-      margin: 0 0 12px;
-      font-size: 1.1rem;
-      letter-spacing: -0.025em;
-    }
-
-    .card p {
-      margin: 0;
-      color: var(--muted);
-    }
-
-    .timeline {
-      display: grid;
-      gap: 16px;
-    }
-
-    .role {
-      display: grid;
-      grid-template-columns: 220px 1fr;
-      gap: 32px;
-      padding: 24px;
-      background: var(--surface-soft);
-      border: 1px solid var(--line);
-      border-radius: 24px;
-      box-shadow: 0 16px 48px var(--shadow-soft);
-    }
-
-    .role .meta {
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
-
-    .role h3 {
-      margin: 0 0 8px;
-      font-size: 1.25rem;
-      letter-spacing: -0.03em;
-    }
-
-    .role p {
-      margin: 0;
-      color: var(--muted);
-      max-width: 760px;
-    }
-
-    footer {
-      color: var(--muted);
-      font-size: 0.9rem;
-      margin-top: 48px;
-    }
-
-    @media (max-width: 820px) {
-      header { margin-bottom: 48px; }
-      nav { display: none; }
-      .hero, .section-heading, .role {
-        grid-template-columns: 1fr;
+        /* Derived theme tokens. These keep the rest of the CSS palette-aware. */
+        --bg-glow-primary: color-mix(in srgb, var(--accent) 14%, transparent);
+        --bg-glow-secondary: color-mix(in srgb, var(--ink) 8%, transparent);
+        --surface-strong: color-mix(in srgb, var(--card) 88%, transparent);
+        --surface-medium: color-mix(in srgb, var(--card) 78%, transparent);
+        --surface-soft: color-mix(in srgb, var(--card) 68%, transparent);
+        --shadow-soft: color-mix(in srgb, var(--ink) 8%, transparent);
+        --shadow-button: color-mix(in srgb, var(--ink) 14%, transparent);
+        --button-primary-bg: var(--ink);
+        --button-primary-text: var(--bg);
+        --button-secondary-bg: color-mix(in srgb, var(--card) 42%, transparent);
+        --selection-bg: color-mix(in srgb, var(--accent) 22%, transparent);
       }
-      .grid { grid-template-columns: 1fr; }
-      .hero { gap: 28px; }
-      .role { gap: 10px; }
-    }
-  </style>
-</head>
-<body>
-  <main class="page">
-    <header>
-      <a class="brand" href="#">Hari Mohanraj</a>
-      <nav aria-label="Primary navigation">
-        <a href="#approach">Approach</a>
-        <a href="#work">Work</a>
-        <a href="mailto:hari.mohanraj89@gmail.com">Contact</a>
-      </nav>
-    </header>
 
-    <section class="hero" aria-label="Introduction">
-      <div>
-        <div class="eyebrow"><span class="dot"></span> Engineering leader · product builder · team multiplier</div>
-        <h1>I build teams that build the right things well.</h1>
-        <p class="lede">I'm Hari, an engineering leader who works at the intersection of product judgment, engineering craft, and team health. I love leading teams that value trust, quality, simplicity, and happiness.</p>
-        <div class="button-row">
-          <a class="button primary" href="mailto:hari.mohanraj89@gmail.com">Get in touch</a>
-          <a class="button" href="#work">See my work</a>
+      * {
+        box-sizing: border-box;
+      }
+
+      ::selection {
+        background: var(--selection-bg);
+        color: var(--ink);
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system,
+          BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--ink);
+        background: radial-gradient(
+            circle at top left,
+            var(--bg-glow-primary),
+            transparent 34rem
+          ),
+          radial-gradient(
+            circle at bottom right,
+            var(--bg-glow-secondary),
+            transparent 28rem
+          ),
+          var(--bg);
+        line-height: 1.6;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .page {
+        max-width: 1120px;
+        margin: 0 auto;
+        padding: 32px 24px 56px;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 24px;
+        margin-bottom: 72px;
+      }
+
+      .brand {
+        font-weight: 760;
+        letter-spacing: -0.04em;
+        font-size: 1.1rem;
+      }
+
+      nav {
+        display: flex;
+        gap: 22px;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+
+      nav a:hover {
+        color: var(--ink);
+      }
+
+      .hero {
+        display: grid;
+        grid-template-columns: 1.3fr 0.7fr;
+        gap: 48px;
+        align-items: end;
+        padding-bottom: 64px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        color: var(--accent-dark);
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        font-size: 0.78rem;
+        margin-bottom: 18px;
+      }
+
+      .dot {
+        width: 8px;
+        height: 8px;
+        border-radius: 999px;
+        background: var(--accent);
+      }
+
+      h1 {
+        font-size: clamp(3.2rem, 9vw, 7.8rem);
+        line-height: 0.92;
+        letter-spacing: -0.08em;
+        margin: 0 0 26px;
+        max-width: 880px;
+      }
+
+      .lede {
+        font-size: clamp(1.15rem, 2vw, 1.55rem);
+        color: var(--muted);
+        max-width: 760px;
+        margin: 0;
+      }
+
+      .hero-card {
+        background: var(--surface-medium);
+        border: 1px solid var(--line);
+        border-radius: 28px;
+        padding: 28px;
+        box-shadow: 0 24px 80px var(--shadow-soft);
+        backdrop-filter: blur(10px);
+      }
+
+      .hero-card p {
+        margin: 0 0 20px;
+        color: var(--muted);
+      }
+
+      .hero-card p:last-child {
+        margin-bottom: 0;
+      }
+
+      .button-row {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+        margin-top: 28px;
+      }
+
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 11px 16px;
+        border-radius: 999px;
+        border: 1px solid var(--ink);
+        background: var(--button-secondary-bg);
+        font-weight: 700;
+        font-size: 0.92rem;
+        transition: transform 160ms ease, box-shadow 160ms ease,
+          background 160ms ease;
+      }
+
+      .button.primary {
+        background: var(--button-primary-bg);
+        color: var(--button-primary-text);
+      }
+
+      .button:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 10px 28px var(--shadow-button);
+      }
+
+      section {
+        padding: 64px 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .section-heading {
+        display: grid;
+        grid-template-columns: 220px 1fr;
+        gap: 32px;
+        align-items: start;
+        margin-bottom: 34px;
+      }
+
+      h2 {
+        margin: 0;
+        font-size: 0.9rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--accent-dark);
+      }
+
+      .section-heading p {
+        margin: 0;
+        font-size: clamp(1.2rem, 2.2vw, 1.85rem);
+        line-height: 1.25;
+        letter-spacing: -0.04em;
+        max-width: 820px;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 18px;
+      }
+
+      .card {
+        background: var(--surface-medium);
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        padding: 24px;
+        min-height: 210px;
+        box-shadow: 0 16px 48px var(--shadow-soft);
+      }
+
+      .card h3 {
+        margin: 0 0 12px;
+        font-size: 1.1rem;
+        letter-spacing: -0.025em;
+      }
+
+      .card p {
+        margin: 0;
+        color: var(--muted);
+      }
+
+      .timeline {
+        display: grid;
+        gap: 16px;
+      }
+
+      .role {
+        display: grid;
+        grid-template-columns: 220px 1fr;
+        gap: 32px;
+        padding: 24px;
+        background: var(--surface-soft);
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        box-shadow: 0 16px 48px var(--shadow-soft);
+      }
+
+      .role .meta {
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+
+      .role h3 {
+        margin: 0 0 8px;
+        font-size: 1.25rem;
+        letter-spacing: -0.03em;
+      }
+
+      .role p {
+        margin: 0;
+        color: var(--muted);
+        max-width: 760px;
+      }
+
+      footer {
+        color: var(--muted);
+        font-size: 0.9rem;
+        margin-top: 48px;
+      }
+
+      @media (max-width: 820px) {
+        header {
+          margin-bottom: 48px;
+        }
+        nav {
+          display: none;
+        }
+        .hero,
+        .section-heading,
+        .role {
+          grid-template-columns: 1fr;
+        }
+        .grid {
+          grid-template-columns: 1fr;
+        }
+        .hero {
+          gap: 28px;
+        }
+        .role {
+          gap: 10px;
+        }
+      }
+    </style>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  </head>
+  <body>
+    <main class="page">
+      <header>
+        <a class="brand" href="#">Hari Mohanraj</a>
+        <nav aria-label="Primary navigation">
+          <a href="#approach">Approach</a>
+          <a href="#work">Work</a>
+          <a href="mailto:hari.mohanraj89@gmail.com">Contact</a>
+        </nav>
+      </header>
+
+      <section class="hero" aria-label="Introduction">
+        <div>
+          <div class="eyebrow">
+            <span class="dot"></span> Engineering leader · product builder ·
+            team multiplier
+          </div>
+          <h1>I build teams that build the right things well.</h1>
+          <p class="lede">
+            I'm Hari, an engineering leader who works at the intersection of
+            product judgment, engineering craft, and team health. I love leading
+            teams that value trust, quality, simplicity, and happiness.
+          </p>
+          <div class="button-row">
+            <a class="button primary" href="mailto:hari.mohanraj89@gmail.com"
+              >Get in touch</a
+            >
+            <a class="button" href="#work">See my work</a>
+          </div>
         </div>
-      </div>
-      <aside class="hero-card" aria-label="Summary">
-        <p><strong>My favorite quotes</strong></p>
-        <p>In software engineering, software is the easy part. It's the rest that makes a great engineer.</p>
-        <p>The best code is the code you don't write.</p>
-        <p>Most problems are people problems.</p>
-      </aside>
-    </section>
+        <aside class="hero-card" aria-label="Summary">
+          <p><strong>My favorite quotes</strong></p>
+          <p>
+            In software engineering, software is the easy part. It's the rest
+            that makes a great engineer.
+          </p>
+          <p>The best code is the code you don't write.</p>
+          <p>Most problems are people problems.</p>
+        </aside>
+      </section>
 
-    <section id="approach">
-      <div class="section-heading">
-        <h2>Approach</h2>
-        <p>My happy place is supporting teams to hone their craft and own their work.</p>
-      </div>
-      <div class="grid">
-        <article class="card">
-          <h3>Take pride in your craft</h3>
-          <p>Clever sucks. Whether it's a piece of code or a whole system architecture, good engineering is obvious, resilient, and easily changed.</p>
-        </article>
-        <article class="card">
-          <h3>Solve the problem</h3>
-          <p>When everyone on the team truly understands the problem, you build the right things well. That might mean building to spec, evolving the solution, or stepping back and solving it outside the product.</p>
-        </article>
-        <article class="card">
-          <h3>agile > "Agile"</h3>
-          <p>Agile software development has tons of processes, but it's not one-size-fits-all. Figuring out the minimum process your team needs to operate smoothly keeps development, well, truly agile.</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="work">
-      <div class="section-heading">
-        <h2>Work</h2>
-        <p>Here's my career at a glance.</p>
-      </div>
-      <div class="timeline">
-        <article class="role">
-          <div class="meta">Factri AI · Manufacturing · 2024-2025</div>
-          <div>
-            <h3>Rebuilding a product engineering team</h3>
-            <p>Led the transformation of a two-person engineering group into a full-stack product team capable of owning delivery, deployments, infrastructure, and product execution.</p>
-          </div>
-        </article>
-        <article class="role">
-          <div class="meta">Simple · Digital health · 2020-2023</div>
-          <div>
-            <h3>Building software at public-health scale</h3>
-            <p>Worked on a product serving millions of patients across multiple countries, balancing speed, reliability, country-specific needs, and operational simplicity.</p>
-          </div>
-        </article>
-        <article class="role">
-          <div class="meta">General Assembly · Training and Education · 2014-2019</div>
-          <div>
-            <h3>Teaching and practicing software development</h3>
-            <p>Started my career as a web development instructor, training adults with zero programming experience to become job-ready developers. Transitioned to the engineering team and paired my academic knowledge with practical experience.</p>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section id="contact" aria-label="Contact">
-      <div class="section-heading">
-        <h2>Contact</h2>
-        <p>If any of this resonates, let's talk.</p>
-        <div class="button-row">
-          <a class="button primary" href="mailto:hello@example.com">Email me</a>
-          <a class="button" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <section id="approach">
+        <div class="section-heading">
+          <h2>Approach</h2>
+          <p>
+            My happy place is supporting teams to hone their craft and own their
+            work.
+          </p>
         </div>
-      </div>
-      <div>
-        
-      </div>
-    </section>
+        <div class="grid">
+          <article class="card">
+            <h3>Take pride in your craft</h3>
+            <p>
+              Clever sucks. Whether it's a piece of code or a whole system
+              architecture, good engineering is obvious, resilient, and easily
+              changed.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Solve the problem</h3>
+            <p>
+              When everyone on the team truly understands the problem, you build
+              the right things well. That might mean building to spec, evolving
+              the solution, or stepping back and solving it outside the product.
+            </p>
+          </article>
+          <article class="card">
+            <h3>agile > "Agile"</h3>
+            <p>
+              Agile software development has tons of processes, but it's not
+              one-size-fits-all. Figuring out the minimum process your team
+              needs to operate smoothly keeps development, well, truly agile.
+            </p>
+          </article>
+        </div>
+      </section>
 
-    <footer>
-      © <span id="year"></span> Hari Mohanraj. Built as a small, static HTML page.
-    </footer>
-  </main>
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
-</body>
+      <section id="work">
+        <div class="section-heading">
+          <h2>Work</h2>
+          <p>Here's my career at a glance.</p>
+        </div>
+        <div class="timeline">
+          <article class="role">
+            <div class="meta">Factri AI · Manufacturing · 2024-2025</div>
+            <div>
+              <h3>Rebuilding a product engineering team</h3>
+              <p>
+                Led the transformation of a two-person engineering group into a
+                full-stack product team capable of owning delivery, deployments,
+                infrastructure, and product execution.
+              </p>
+            </div>
+          </article>
+          <article class="role">
+            <div class="meta">Simple · Digital health · 2020-2023</div>
+            <div>
+              <h3>Building software at public-health scale</h3>
+              <p>
+                Worked on a product serving millions of patients across multiple
+                countries, balancing speed, reliability, country-specific needs,
+                and operational simplicity.
+              </p>
+            </div>
+          </article>
+          <article class="role">
+            <div class="meta">
+              General Assembly · Training and Education · 2014-2019
+            </div>
+            <div>
+              <h3>Teaching and practicing software development</h3>
+              <p>
+                Started my career as a web development instructor, training
+                adults with zero programming experience to become job-ready
+                developers. Transitioned to the engineering team and paired my
+                academic knowledge with practical experience.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" aria-label="Contact">
+        <div class="section-heading">
+          <h2>Contact</h2>
+          <p>If any of this resonates, let's talk.</p>
+          <div class="button-row">
+            <a class="button primary" href="mailto:hello@example.com"
+              >Email me</a
+            >
+            <a
+              class="button"
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn</a
+            >
+          </div>
+        </div>
+        <div></div>
+      </section>
+
+      <footer>
+        © <span id="year"></span> Hari Mohanraj. Built as a small, static HTML
+        page.
+      </footer>
+    </main>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
 </html>
